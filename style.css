@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:fixed;
+    left:50%;
+    bottom:0%;
+    background:red;
+
+}
+div:hover{
+    animation:example 1s infinite;
+}
+@keyframes example{
+    0%{bottom: 15px;}
+    25%,75%{bottom:25xp;}
+    50%{bottom:35xp;}
+    100%{bottom:0xp;}
+}
